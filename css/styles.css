@@ -1,0 +1,293 @@
+.protest-guerrilla-regular {
+  font-family: "Protest Guerrilla", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.black-ops-one-regular {
+  font-family: "Black Ops One", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.arvo-regular {
+  font-family: "Arvo", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.arvo-bold {
+  font-family: "Arvo", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.arvo-regular-italic {
+  font-family: "Arvo", serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.arvo-bold-italic {
+  font-family: "Arvo", serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Arvo";
+    font-weight: 400;
+    font-style: normal;
+  background: white;
+  color: #000000;
+}
+
+.header {
+  background: black;
+}
+
+.logo {
+  display: block;
+  text-align: center;
+}
+
+.logo h1 {
+  font-family: "Black Ops One";
+    font-weight: 400;
+    font-style: normal;
+  font-size: 3.5rem;
+  color: #FF7700;
+  padding: 1%;
+}
+
+.logo span {
+  font-size: 1.5rem;
+}
+
+.headerinfo {
+  color: white;
+  display: none;
+  font-size: 1.1rem;
+  font-weight: bold;
+  margin-top: 10pt;
+  text-align: center;
+}
+
+.navbar {
+  background: #C2BDC7;
+  margin-top: 1rem;
+}
+
+.navlinks {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+
+.navlinks li {
+  padding: 1rem;
+}
+
+.navlinks a {
+  color: black;
+  text-decoration: none;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.navlinks a:hover,
+.navlinks a:focus {
+  text-decoration: underline;
+}
+
+.title {
+  background-color: #FF7700;
+  text-align: center;
+  padding: 1rem;
+  color: white;
+  margin-bottom: 2rem;
+  font-size: 1.5rem;
+  font-family: "Black Ops One";
+}
+
+.woodbox {
+  max-height: 100rem;
+}
+
+.woodtext h2 {
+  font-size: 2rem;
+  color: white;
+  padding: 1.4rem;
+  text-align: center;
+  background-color: #000000;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.woodtext span {
+  font-size: 1rem;
+}
+
+.wood img {
+  width: 100%;
+  height: auto;
+  max-height: 30rem;
+}
+
+.hometext {
+  text-align: center;
+  padding: 1rem;
+  font-size: 1rem;
+  margin: auto 15%;
+  word-spacing: 10%;
+}
+
+.hometext h3 {
+  font-family: "Black Ops One";
+  padding: 2%;
+  font-size: 2rem;
+  font-weight: 400;
+}
+
+.services-list {
+  font-size: 1.2rem;
+  list-style-position: inside;
+  text-align: center;
+  margin: auto 15%;
+}
+
+.services-list li {
+  padding: 2%;
+}
+
+.our-work header {
+  font-size: 25pt;
+  text-align: center;
+  font-weight: bold;
+  padding: 3%;
+}
+
+.service-pics {
+  display: grid;
+  justify-items: center;
+  gap: 10pt;
+  margin: auto 2%;
+}
+
+.service-pics img {
+  max-width: 400px;
+  max-height: 400px;
+}
+
+
+.footer {
+  background: linear-gradient(to right, black, #f57200);
+  text-align: center;
+  color: white;
+  padding: 1rem;
+  margin-top: 2rem;
+}
+
+.small-logo {
+  font-family: "Black Ops One";
+    font-weight: 400;
+    font-style: normal;
+    font-size: 2.25rem;
+}
+
+.footerinfo {
+  font-size: 1.1rem;
+  padding: 4%;
+}
+
+
+@media (min-width: 768px) {
+  .logo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: left;
+    margin-left: 10px;
+  }
+
+  .logo h1 {
+    font-size: 4em;
+    margin-top: 1%;
+    margin-left: 1%;
+  }
+
+  .headerinfo {
+    display: flex;
+    margin-right: 2%;
+    margin-top: 2%;
+  }
+
+  .navlinks {
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  main {
+    margin: auto;
+  }
+
+  .woodtext h2 {
+    font-size: 3rem;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .woodtext span {
+    font-size: 2rem;
+  }
+
+  .services-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: .5rem;
+    font-size: 1.5rem;
+  }
+
+  .services {
+    text-align: center;
+    margin: auto 10%;
+  }
+
+  .service-pics {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 400px) ;
+    gap: 10pt;
+    justify-content: center;
+    margin: auto 2%;
+  }
+
+  .service-pics img {
+    max-width: 400px;
+    max-height: 400px;
+  }
+
+  .small-logo {
+    font-size: 3rem;
+    align-content: center;
+  }
+
+  .footer {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .footerinfo {
+    padding: 1%;
+  }
+  
+}
