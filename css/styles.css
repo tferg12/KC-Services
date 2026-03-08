@@ -62,7 +62,7 @@ body {
   font-family: "Black Ops One";
     font-weight: 400;
     font-style: normal;
-  font-size: 3.5rem;
+  font-size: 3.25rem;
   color: #FF7700;
   padding: 1%;
 }
@@ -118,11 +118,12 @@ body {
 }
 
 .woodbox {
-  max-height: 100rem;
+  position: relative;
+  width: 100%;
 }
 
 .woodtext h2 {
-  font-size: 2rem;
+  font-size: 1.5rem;
   color: white;
   padding: 1.4rem;
   text-align: center;
@@ -134,7 +135,7 @@ body {
 }
 
 .woodtext span {
-  font-size: 1rem;
+  font-size: 0.8rem;
 }
 
 .wood img {
@@ -154,7 +155,7 @@ body {
 .hometext h3 {
   font-family: "Black Ops One";
   padding: 2%;
-  font-size: 2rem;
+  font-size: 1.75rem;
   font-weight: 400;
 }
 
@@ -201,12 +202,22 @@ body {
   font-family: "Black Ops One";
     font-weight: 400;
     font-style: normal;
-    font-size: 2.25rem;
+    font-size: 2rem;
 }
 
 .footerinfo {
   font-size: 1.1rem;
   padding: 4%;
+}
+
+@media (min-width: 480px) {
+  .woodtext h2 {
+    font-size: 2rem;
+  }
+
+  .woodtext span {
+    font-size: 1rem;
+  }
 }
 
 
@@ -242,9 +253,6 @@ body {
 
   .woodtext h2 {
     font-size: 3rem;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
   }
 
   .woodtext span {
