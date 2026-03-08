@@ -114,7 +114,11 @@ body {
   color: white;
   margin-bottom: 2rem;
   font-size: 1.5rem;
+}
+
+.title h2 {
   font-family: "Black Ops One";
+  font-weight: 400;
 }
 
 .woodbox {
